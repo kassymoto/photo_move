@@ -86,9 +86,5 @@ if __name__ == '__main__':
     button3 = ttk.Button(frame3, text='Start', command=button3_clicked)
     button3.pack(side=LEFT)
 
-    button4 = ttk.Button(frame3, text='Cancel', command=quit)
-    button4.pack(side=LEFT)
-
-
 
     root.mainloop()
